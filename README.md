@@ -1,12 +1,13 @@
-##App Name : Corona_Data_vs
-##Version:1.0.0
-##Author: Khan Osman
-##Orginality: Re-developed
-##Thanks to @adrianhajdin for this amazing project.
+# App Name : Corona_Data_vs
+# Version:1.0.0
+# Author: Khan Osman
+# Orginality: Re-developed
+# Thanks to @adrianhajdin for this amazing project.
+---------------------------------------------------------------------------------------------------------------------
 
-#Platform : React
-#This is a visualiser app where users can get the latest graphical data of COVID-19.  
-
+# Platform : React
+# This is a visualiser app where users can get the latest graphical data of COVID-19.  
+----------------------------------------------------------------------------------------------------------------------
 
 Screen Shot:
 -----------------------------------------------------------------------------------------------------------------------
