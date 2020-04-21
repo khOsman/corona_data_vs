@@ -1,0 +1,25 @@
+.container {
+	margin: 10px 0px 0px 0px !important;
+	padding: 0px;
+	background: #e4e0de !important;
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.footerTag {
+	color: #424242;
+}
+
+.footerLink {
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.2s ease-out !important;
+}
+
+.footerLink:hover {
+	padding: 5px !important;
+	color: #311b92;
+	font-size: large;
+}

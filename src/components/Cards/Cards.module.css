@@ -1,0 +1,53 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.card {
+	margin: 0 2% !important;
+}
+
+.infected {
+	border-bottom: 10px solid #0091ea;
+	transition: all 0.5s ease-out !important;
+}
+
+.infected:hover {
+	padding: 5px !important;
+	background: linear-gradient(45deg, #e1f5fe 30%, #b3e5fc 70%) !important;
+	cursor: pointer;
+}
+
+.recovered {
+	border-bottom: 10px solid #00e676;
+	transition: all 0.5s ease-out !important;
+}
+
+.recovered:hover {
+	padding: 5px !important;
+	background: linear-gradient(45deg, #b9f6ca 30%, #8df7c4 90%) !important;
+	cursor: pointer;
+}
+
+.recoveredheader {
+	color: #00e676 !important;
+}
+
+.deaths {
+	border-bottom: 10px solid #f44336;
+	transition: all 0.5s ease-out !important;
+}
+
+.deaths:hover {
+	padding: 5px !important;
+	background: linear-gradient(45deg, #ffccd4 30%, #ff5252 90%) !important;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 770px) {
+	.card {
+		margin: 2% 0 !important;
+	}
+}

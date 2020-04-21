@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	justify-content: center;
+	width: 75%;
+	margin-bottom: 20px !important;
+	transition: all 0.5s ease-out !important;
+}
+
+.container:hover {
+	padding: 3px !important;
+	background: white;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 770px) {
+	.container {
+		width: 100%;
+	}
+}
